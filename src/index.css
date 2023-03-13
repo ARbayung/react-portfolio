@@ -1,13 +1,121 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+:root{
+  --headcol: #2218A7;
+  --textcol: #737CCF;
+  --bgcol:#E1E5F8;
+  --sectioncol:#BBC4EB;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (max-width: 576px){
+}
+
+@media (max-width: 768px){
+    
+}
+
+@media (max-width:992px){
+}
+
+@media (max-width:1200px){
+
+}
+
+@media (max-width:1400px){
+}
+
+@import url('https://fonts.cdnfonts.com/css/noir');
+@import url('https://fonts.cdnfonts.com/css/rezland-2');
+
+h1{
+  font-family: 'Rezland', sans-serif;
+}
+
+body{
+  /* background-image: url(./components/black-g10b10913d_1920.jpg);
+  height: 100%; */
+}
+
+h1{
+  color: var(--headcol);
+}
+
+h2{
+  text-align:right;
+}
+
+p{
+  text-align:right;
+}
+
+li{
+  color: grey;
+}
+
+h2{
+  color: var(--headcol);
+}
+
+p{
+  color: var(--textcol);
+}
+
+.jumbotron{
+  height: vh;
+}
+
+
+.head-container{
+  position: absolute;
+  right: 10vh;
+  bottom: 0;
+  width: 70%;
+}
+
+.section{
+  /* writing-mode: vertical-rl;
+  text-orientation: mixed; */
+  background-color: var(--bgcol);
+}
+
+.navbar{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  overflow: hidden;
+  position: fixed;
+}
+
+.socials{
+  position: absolute;
+  top: 9vh;
+  right: 7vh;
+}
+
+.icon{
+  color: var(--textcol);
+}
+
+.icon:hover{
+  color: var(--headcol);
+}
+
+.header-qoute{
+  position: absolute;
+  top: 10vh;
+  font-style: italic;
+}
+
+.name{
+  font-family: noir;
+}
+
+.lead{
+  font-style: italic;
+  color: black;
+}
+
+.projects-section{
+  position: absolute;
+  top: 8vh;
+  right: 10vh;
 }
