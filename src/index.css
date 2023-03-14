@@ -76,6 +76,7 @@ p{
   /* writing-mode: vertical-rl;
   text-orientation: mixed; */
   background-color: var(--bgcol);
+  margin-top: 40px;
 }
 
 .navbar{
@@ -118,4 +119,37 @@ p{
   position: absolute;
   top: 8vh;
   right: 10vh;
+  width: 70%;
+}
+
+.project{
+  width: 100%;
+}
+
+.project-container{
+  position: absolute;
+  top: 14vh;
+  right: 1vh;  
+}
+
+.heading{
+  position: absolute;
+  right: 1vh;
+}
+
+.contactme-content{
+  position:absolute;
+  top: 10vh;
+  right: 2vh;
+
+}
+
+.form-section{
+  padding: 2vh;
+  right: 0;
+}
+
+.btn-secondary{
+  position: absolute;
+  right: 13vh;
 }

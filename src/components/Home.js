@@ -7,7 +7,7 @@ function Home(){
     <div class="jumbotron p-5">
         <div class="socials">
             <p> 
-                <a class="p-2" href="#" role="button">
+                <a class="p-2" href="https://github.com/ARbayung" role="button">
                 <FaGithub class="icon" size="2em" />
                 </a>
                 <a class="p-2" href="#" role="button">
@@ -26,10 +26,9 @@ function Home(){
             <h2 class="display-1 name">-ABISKAR.R</h2>
             
         </div>
-      
+        
     </div>
-        <Section1/>
-    </div>
+        </div>
 }
 
 export default Home;  
